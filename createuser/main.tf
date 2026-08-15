@@ -11,9 +11,9 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "us-west-2"
+  region  = "ap-south-1"
 }
 
 resource "aws_iam_user" "lb" {
-  name = "Adam"
+  name = "Vishal_terraform"
 }

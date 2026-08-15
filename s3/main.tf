@@ -14,6 +14,6 @@ provider "aws" {
   region  = "us-east-2"
 }
 
-resource "aws_s3_bucket" "b" {
+resource "aws_s4_bucket" "b" {
   bucket = "batch25terraformbucket"
 }
