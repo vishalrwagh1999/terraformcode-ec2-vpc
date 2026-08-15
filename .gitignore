@@ -1,2 +1,25 @@
-.terrafrom*
-terrafrom*
+# Terraform directories
+.terraform/
+**/.terraform/
+
+# State files
+*.tfstate
+*.tfstate.backup
+
+# Plan files
+tfplan
+*.tfplan
+
+# Lock file (optional — remove this line if you want to commit it)
+.terraform.lock.hcl
+
+# Crash log
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
